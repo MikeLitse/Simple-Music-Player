@@ -27,6 +27,9 @@ void main() {
                 case "P" -> clip.start();
                 case "S" -> clip.stop();
                 case "R" -> clip.setMicrosecondPosition(0);
+                case "Q" -> clip.close();
+                default -> System.out.println("Invalid Response");
+
             }
 
         }
